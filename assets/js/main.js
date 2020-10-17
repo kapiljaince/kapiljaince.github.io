@@ -114,9 +114,9 @@
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     dots: true,
-    loop: true,
+    loop: false,
     responsive: {
       0: {
         items: 1
@@ -124,9 +124,9 @@
       768: {
         items: 2
       },
-      900: {
-        items: 3
-      }
+      // 900: {
+      //   items: 3
+      // }
     }
   });
 
